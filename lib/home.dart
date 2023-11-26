@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
 import 'package:flutter/material.dart';
+import 'package:flutter_chat_ui/screens/call_screen.dart';
 import 'package:flutter_chat_ui/screens/chat_screen.dart';
 import 'package:flutter_chat_ui/screens/update_screen.dart';
 import 'package:flutter_chat_ui/widgets/chat_list_tile.dart';
@@ -69,9 +70,7 @@ class HomeState extends State<Home> {
             StoreListTile(),
             ChatScreen(),
             UpdateScreen(),
-            Center(
-              child: Text("It's foo here"),
-            ),
+            CallScreen(),
           ],
         ),
       ),

@@ -28,7 +28,7 @@ class ChannelCard extends StatelessWidget {
               backgroundImage: AssetImage('assets/images/avatar.png'),
             ),
             SizedBox(height: 8),
-            Text('Sobuz Bro ODCL'),
+            Text('Channel Name'),
             SizedBox(height: 12),
             GestureDetector(
               onTap: () {},
