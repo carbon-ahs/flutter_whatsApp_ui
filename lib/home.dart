@@ -1,8 +1,10 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
 import 'package:flutter/material.dart';
+import 'package:flutter_chat_ui/screens/chat_screen.dart';
+import 'package:flutter_chat_ui/screens/update_screen.dart';
 import 'package:flutter_chat_ui/widgets/chat_list_tile.dart';
-import 'components.dart';
+import 'widgets/components.dart';
 
 // import 'screens/chat_screen.dart';
 
@@ -65,10 +67,8 @@ class HomeState extends State<Home> {
         body: const TabBarView(
           children: <Widget>[
             StoreListTile(),
-            ChatListTile(),
-            Center(
-              child: Text("It's sunny here"),
-            ),
+            ChatScreen(),
+            UpdateScreen(),
             Center(
               child: Text("It's foo here"),
             ),
